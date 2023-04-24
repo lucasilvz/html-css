@@ -1,0 +1,51 @@
+
+/*
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-element
+    > = children
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkslategrey;
+}
+
+a:active {
+    color: pink;
+}
+
+.especial {
+    background-color: darkblue;
+    color: white;
+}
+
+.especial::before {
+    content: '⇨';
+    color: darkgray;
+    font-weight: normal;
+}
+
+.especial::after {
+    content: '⇦';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}

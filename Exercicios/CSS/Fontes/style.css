@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@font-face {
+    font-family: love;
+    src: url(HeartBreath.otf) format(opentype);
+    /* Tipo de formatos:
+    - opentype (otf)
+    -truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (apple advance
+    - svg
+    */
+}
+
+
+body{
+    
+    /* Medidas absolutas 
+        cm, mn, in(polegada), px, pt, pc
+        
+       Medidas relativas
+        em, ex, rem, vw, vh, %  
+        EM = MELHOR RECOMENDAÇÃO / PX
+        16px geralmente é 1em (o dobro de 16px, relativo ao tamanho principal do navegador)
+    */
+    /* weight = peso da fonte // lighter normal bold bolder ou 100 - 900 */
+
+    /* font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    font-style: italic; */
+    font: italic bolder 2em  arial, sans-serif;
+    /* font-style -> font-weight -> font-size -> font-family*/
+    background-image: linear-gradient(107deg, white,rgb(189, 189, 189), gray);
+
+
+}
+main {
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgb(58, 58, 58);
+}
+h1,h2 {
+    font: italic bolder 4em love, sans-serif;
+
+}
+
+main:hover {
+     background-color: rgb(238, 238, 238);
+}

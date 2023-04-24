@@ -1,0 +1,25 @@
+div#blocos {
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+div#blocos:hover {
+    background-color: blue;
+}
+
+div#textos {
+    display: inline;
+
+}
+
+div#textos > p {
+    display: none;
+}
+
+div#textos:hover > p {
+    display: block;
+    color: red;
+}
