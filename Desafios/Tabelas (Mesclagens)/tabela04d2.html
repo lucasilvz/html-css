@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio3</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    table {
+        width: 500px;
+        border-collapse: collapse;
+        margin: auto;
+    }
+
+    td, th {
+        border: 2px solid black;
+        padding: 10px;
+    }
+
+    .mediae, .mediah {
+        text-align: left;
+        background-color: rgb(151, 151, 151);
+    }
+
+    thead th {
+        background-color: rgb(151, 151, 151);
+    }
+</style>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+            <th rowspan="2">Área</th>
+            <th rowspan="2">Disciplinas</th>
+            <th colspan="2">Notas</th>
+
+            <th rowspan="2">Média</th>
+        </tr>
+
+        <tr>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+            <!-- Inicio exatas -->            
+            <tr> 
+                <th rowspan="4">Exatas</th>
+                <td>Matématica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+               
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                
+            </tr> 
+
+            <!-- Fim exatas -->
+
+            <tr class="mediae">
+                <th colspan="4">Média de Exatas</th>
+                <td>0.0</td>
+            </tr>
+
+            <!-- Inicio Humanas-->
+
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geográfia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+
+            <tr class="mediah">
+                <th colspan="4">Média de Humanas</th>
+                <td>0.0</td>
+            </tr>
+            <!-- Fim Humanas-->
+        </tbody>
+    </table>
+
+</body>
+</html>

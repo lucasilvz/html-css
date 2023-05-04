@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+
+<style>
+@charset "UTF-8";
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+    body {
+        font-family: 'Passion One', Helvetica, sans-serif;
+        text-align: center;
+        background-image: linear-gradient(to bottom, lightblue, rgb(127, 172, 187), rgb(81, 81, 186));
+        
+    }
+
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
+
+    div {
+        
+        padding: 10px;
+        margin: auto;
+        width: 600px;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 4px 4px 19px 4px rgba(0, 0, 0, 0.312);
+    }
+
+    table {
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+        margin: auto;
+        background-color: whitesmoke;
+
+
+    }
+
+
+    th, .foot2 {
+        background-color: gray;
+        padding: 8px;
+        border: 1px solid black;
+        color: white;
+        font-weight: bolder;
+        
+
+        
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+    }
+
+    td {
+        padding: 8px;
+        border: 1px solid black;
+
+    }
+
+    tr:hover {
+        background-color: lightsalmon;
+    }
+
+    h1 {
+        color: lightsalmon;
+        font-variant: small-caps;
+    }
+
+    tbody tr:nth-child(odd) { /* odd ou aven */
+        background-color: lightskyblue;
+    }
+
+
+</style>
+
+<body>
+    <div>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- 
+        ANATOMIA DE TABELAS GRANDES
+        TABLE 
+            THEAD 
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+        --->
+    <table>
+        <caption>População das Unidades Federativas</caption> <!-- TITULO EM CIMA DA TABELA -->
+        <thead>
+            <th scope="col">Estado</th> <!-- Scope col na mesma COLUNA -->
+            <th scope="col">População</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>São Paulo</td>
+            <td>41 262 199</td>
+        </tr>
+
+        <tr>
+            <td>Minas Gerais</td>
+            <td>19 597 330</td>
+        </tr>
+
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td>15 989 929</td>
+        </tr>
+
+        <tr>
+            <td>Bahia</td>
+            <td>14 016 906</td>
+        </tr>
+
+        <tr>
+            <td>Paraná</td>
+            <td>10 444 526</td>
+        </tr>
+
+        <tr>
+            <td>Pernambuco</td>
+            <td>8 796 448</td>
+        </tr>
+
+        <tr>
+            <td>Ceará</td>
+            <td>8 452 381</td>
+        </tr>
+
+        <tr>
+            <td>Pará</td>
+            <td>7 581 051</td>
+        </tr>
+
+        <tr>
+            <td>Santa Catarina</td>
+            <td>6 248 436</td>
+        </tr>
+
+        <tr>
+            <td>Goiás</td>
+            <td>6 003 788</td>
+        </tr>
+
+        <tr>
+            <td>Maranhão</td>
+            <td>6 574 789</td>
+        </tr>
+
+        <tr>
+            <td>Espirito Santo</td>
+            <td>3 514 952</td>
+        </tr>
+
+        <tr>
+            <td>Paraiba</td>
+            <td>3 766 528</td>
+        </tr>
+
+        <tr>
+            <td>Amazonas</td>
+            <td>3 483 985</td>
+        </tr>
+
+        <tr>
+            <td>Mato Grosso</td>
+            <td>3 035 122</td>
+        </tr>
+
+        <tr>
+            <td>Rio Grande do Norte</td>
+            <td>3 168 027</td>
+        </tr>
+
+        <tr>
+            <td>Piauí</td>
+            <td>3 270 174</td>
+        </tr>
+
+        <tr>
+            <td>Alagoas</td>
+            <td>3 120 494</td>
+        </tr>
+
+        <tr>
+            <td>Distrito Federal</td>
+            <td>2 570 160</td>
+        </tr>
+
+        <tr>
+            <td>Alagoas</td>
+            <td>3 120 494</td>
+        </tr>
+
+        <tr>
+            <td>Mato Grosso do Sul</td>
+            <td>2 449 024</td>
+        </tr>
+
+        <tr>
+            <td>Sergipe</td>
+            <td>2 068 017</td>
+        </tr>
+
+        <tr>
+            <td>Rondonia</td>
+            <td>1 562 409</td>
+        </tr>
+
+        <tr>
+            <td>Tocantins</td>
+            <td>1 383 445</td>
+        </tr>
+
+        <tr>
+            <td>Acre</td>
+            <td>733 559</td>
+        </tr>
+
+        <tr>
+            <td>Amapá</td>
+            <td>669 526</td>
+        </tr>
+
+        <tr>
+            <td>Roraima</td>
+            <td>450 479</td>
+        </tr>
+    </tbody>
+
+        <tfoot>
+            <th scope="row">Total de Habitantes</th> <!-- Scope row na mesma LINHA -->
+            <td class="foot2" >214.382.627</td>  
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>
