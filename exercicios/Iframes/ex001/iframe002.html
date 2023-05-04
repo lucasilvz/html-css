@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação de Iframes</title>
+</head>
+
+<style>
+
+    body {
+        margin: auto;
+        padding: 0;
+    }
+
+    iframe#tela {
+        display: block;
+        margin: auto;
+        width: 800px;
+        height: 400px;
+        border: 2px solid black;
+        
+    }
+
+</style>
+
+<body>
+    <h1>Faça uma escolha de conteúdo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repellendus eum dolores, deleniti error iste, reprehenderit voluptate eaque veritatis quos dolorum illum repellat, accusantium perspiciatis consectetur cupiditate in velit sapiente! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed fugiat numquam molestiae illum beatae! Nostrum, illum officia recusandae cumque facilis corrupti autem eum, maiores iusto, accusamus soluta vel sunt at.</p>
+    
+    <ul>
+        <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.62287526491!2d-122.08418770000002!3d37.422387799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba027f087f8f%3A0xd86b06710e8fcc35!2sGoogle%20Building%2040%2C%201600%20Amphitheatre%20Pkwy%2C%20Mountain%20View%2C%20CA%2094043%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1683168610983!5m2!1spt-BR!2sbr" target="frame">Primeira página</a></li>
+        <li><a href="https://www.instagram.com/lucasilvz_/" target="frame">Segunda página</a></li>
+        <li><a href="pagex/pag3.html" target="frame">Terceira página</a></li>
+    </ul>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, sed impedit odio aliquam doloribus repellat obcaecati, quae, dolore eaque dicta natus! Nemo excepturi cum porro odit et numquam quam. Sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptates voluptas eligendi provident itaque laborum minus corrupti iusto exercitationem libero voluptatibus, atque illum optio, natus laboriosam, ullam vitae ut quibusdam!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opçãoes acima que irá aparecer o conteúdo aqui.</h1>"></iframe>
+</body>
+</html>
